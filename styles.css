@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+/* font-family: 'Cabin', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Sora:wght@700&display=swap');
+/* font-family: 'Sora', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+html{
+    scroll-behavior: smooth;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar ul{
+    display: flex;
+}
+.bar ul li{
+  list-style: none;
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Signika Negative', sans-serif;
+  cursor: pointer;
+  transition:transform 0.5s, background 0.5s;
+  padding: 5px 0px;
+}
+.bar ul li:hover{
+ background:  #ff004f;
+ transform: translateY(-5px);
+ 
+}
+
+.bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}
+.smallword{
+    font-size: 30px;
+    margin: 5px 0px 0px;
+    color: aliceblue;
+    font-family: 'Sora', sans-serif;
+}
+.capital{
+    font-size:50px;
+    margin: 5px 0px 0px 40px;
+    color: rgb(255, 1, 77);
+    font-family: 'Signika Negative', sans-serif;
+} 
+
+#cover{
+    width: 100vw;
+    height: 100vh;
+}
+.developer{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left:60px;
+}
+.into{
+    font-size: 70px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    margin: 130px 0 0 40px;
+}
+.main-bold{
+    color: rgb(255, 1, 77);
+}
+.small-bold{
+    margin: 0px;
+}
+.cv-nav{
+    margin: 170px 0px 0px 50px ;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+#about,.about-us{
+    flex-basis: 60%;
+    color: white;
+}
+.about-us h1{
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+}
+.photoabout{
+     flex-basis: 35%;
+}
+.photoabout img {
+    margin-left: 50px;
+    border-radius: 12px;
+    width: 100%;
+    height: 95vh;
+}
+.about-text{
+    font-size: 15px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.sub-title{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-title h3{
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+}
+.sub-title h3:hover{
+      border-bottom: 2px solid red;
+}
+ ul li{
+ list-style: none;
+ margin-left: 40px;
+ margin-top: 20px;
+ font-family: 'Cabin', sans-serif;
+}
+ul li span{
+    color: rgb(255, 1, 77);
+}
+.ex-title{
+    display: none;
+}
+.active-link{
+    margin: 50px;
+    display: block;
+    font-family: 'Sora', sans-serif;
+}
+.service-tab{
+    color: white;
+}
+ .service-tab h1{
+    padding: 50px;
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 30px;
+}
+#service{
+    margin-left: 40px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:40px;                                                                                                                                                                
+}
+.service-box{
+    width: 350px;
+    height: 300px;
+    background-color:#262626;
+    border-radius: 10px;
+    transition:transform 0.5s, background 0.5s;
+}
+.service-box:hover{
+ background: #ff004f;
+ transform: translateY(-10px);
+
+}
+.service-box .learn{
+    text-decoration: none;
+}
+.service-tab h2,p,a,i{
+    font-family: 'Cabin', sans-serif;
+    margin: 20px;
+}
+.service-tab a{
+  color: rgb(81, 81, 218);
+}                                                                                                                         
+.fa-app-store,.fa-crop-alt,.fa-code{
+    font-size: 30px;
+}
+div.ser-img img{
+    display: inline;
+    height: 300px;
+    width: 325px;
+    border-radius: 10px;
+    transition:transform 0.5s;
+    overflow: hidden;
+    box-shadow: 4px 4px 2px 2px rgb(81 81 218);
+}
+#sevice-img{
+ margin-left: 40px;
+  display:grid;
+ grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-gap:30px;
+}
+div.ser-img:hover img{
+    transform: scale(1.009);
+}
+
+.layer{
+    color: white;
+    display: flex;
+    margin: 35px 0px 10px ;
+    font-family: 'Cabin', sans-serif; 
+    display: flex;
+}
+.view-work{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}  
+.contact-box h1{
+        color: white;
+        padding: 30px;
+        font-size: 60px;
+        font-family: 'Cabin', sans-serif;
+        margin-left: 30px;
+    }
+    #main-contact{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Cabin', sans-serif;
+    }
+    label{
+        color: white;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .our-contacts{
+        flex-basis: 35%;
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .our-contacts .contact-head{
+        font-size: 30px;
+        font-family: 'Cabin', sans-serif;
+        margin: 30px 25px;
+    }
+    #main-contact .social-icons a i{
+         font-size: 35px;
+        color: rgb(168, 160, 160);
+        transition: transform 0.5s;
+    }
+    #main-contact .social-icons a i:hover{
+        color: #ff004f;
+        transform: translateY(-5px);
+    }
+
+   .our-contacts i{
+    color: #ff004f;
+   }
+   #main-contact .details-customer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+   }
+   input , textarea{
+    width: 60%;
+    outline: none;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #262626;
+    border: none;
+    color: white;
+    border-radius: 5px;
+   }
+   .submit{
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #262626;
+    color: white;
+    border-color: #ff004f;
+    border-radius: 5px;
+   }
+   .sub-btn{
+     margin: 20px 0px 50px 130px;
+     width: 20%;
+     
+   }
+   .submit:hover{
+    background-color: #ff004f;
+   }
+   .cv{
+    display: flex;
+    justify-content: center;
+   }
+   .cv-btn{
+    width: auto;
+    text-decoration: none;
+    height: 28px;
+    width: 120px;
+    border:2px solid #ff004f;
+   }
+   .fa-xmark{
+    display: none;
+   }
+   .fa-bars{
+    position: absolute;
+    right: -100px;
+    display: none;
+   }
+@media only screen and (max-width:600px) {
+    
+    .capital{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .smallword{
+        font-size: 30px;
+    }
+    .into {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    p.small-bold {
+        margin-left: 10px;
+    }
+    #about{
+        display: inline;
+    }
+.photoabout img {
+    margin-left: 0px;
+    border-radius: 12px;
+    height: 80vh;
+}
+.about-us h1 {
+    font-size: 30px;
+    margin: 10px 10px;
+    margin-left: 20px;
+}
+.about-text {
+    font-size: 10px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 10px;
+}
+.sub-title {
+    display: flex;
+    justify-content: space-around;
+}
+.ex-title{
+    margin-left: 0px;
+}
+.service-tab h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 5px;
+}
+#service{
+    margin-left: 17px;
+    grid-gap:10px ;
+}
+.view-work{
+    margin-top: 01px;
+}
+.view-btn {
+    padding: 8px 118px;
+    border-radius: 5px;
+}
+.contact-box h1 {
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif; 
+     margin-left: 10px;
+}
+#main-contact {
+    display: block;
+}
+.our-contacts{
+margin-left:0px;
+}
+.social-icons{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cv-btn {
+    width: 90%;
+    text-align: center;
+}
+.cv-nav {
+    margin: 170px 0px 0px 100px;
+}
+#main-contact .details-customer{
+    margin-left: 20px;
+}
+input , textarea{
+    width: 90%;
+}
+.sub-btn{
+    width: 90%;
+    margin-left: 5px;
+}
+.bar{
+    display: block;
+}
+.bar ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58 58 58 / 60%);
+}
+.bar ul{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 60vw;
+    height: 100vh;
+    color: #ff004f;
+    
+}
+.bar ul li{
+    padding: 30px 0px;
+    display: block;
+    text-align: left;
+}
+   .fa-xmark{
+    display: block;
+    color: #ff004f;
+    font-size: 30px;
+       }
+       .fa-bars{
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        color: #ff004f;
+       }
+       .show-bar{
+        visibility: visible;
+       }
+       .hidebar{
+        visibility: hidden;
+       }
+}
