@@ -52,8 +52,10 @@ html{
     margin: 5px 0px 0px 40px;
     color: rgb(255, 1, 77);
     font-family: 'Signika Negative', sans-serif;
-} 
-
+}
+.createrimg img{
+    height: 30%;
+}
 #cover{
     width: 100vw;
     height: 100vh;
@@ -76,7 +78,7 @@ html{
     margin: 0px;
 }
 .cv-nav{
-    margin: 170px 0px 0px 50px ;
+    margin: 50px 0px 0px 50px ;
 }
 #about{
     display: flex;
@@ -94,7 +96,7 @@ html{
      flex-basis: 35%;
 }
 .photoabout img {
-    margin-left: 50px;
+    margin-left: 50px 50px;
     border-radius: 12px;
     width: 100%;
     height: 95vh;
@@ -380,7 +382,7 @@ margin-left:0px;
     text-align: center;
 }
 .cv-nav {
-    margin: 170px 0px 0px 100px;
+    margin: 50px 0px 0px 100px;
 }
 #main-contact .details-customer{
     margin-left: 20px;
